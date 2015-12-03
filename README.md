@@ -29,14 +29,12 @@ How to install a wheel
 ====================
 
 ```
-pip install wheel
 pip install wheel_file.whl
 ```
 
 or
 
 ```
-pip install wheel
 wget http://domain.com/wheel.whl
 pip install wheel.whl
 ```
