@@ -7,6 +7,7 @@ pip install wheel
 
 How to build wheel
 ==================
+
 ```
 wget https://pypi.python.org/packages/source/p/pandas/pandas-0.17.1.tar.gz
 tar xzvf pandas-0.17.1.tar.gz
@@ -17,12 +18,14 @@ python setup.py sdist bdist_wheel
 
 How to install wheel
 ====================
+
 ```
 pip install wheel
 pip install wheel_file.whl
 ```
 
 or
+
 ```
 pip install wheel
 wget http://domain.com/wheel.whl
