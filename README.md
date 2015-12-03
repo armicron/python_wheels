@@ -1,7 +1,7 @@
 System requirements
 ===================
 Wheel's build is very system-specific.
-For shippable/minv2 testing container we should can use ubuntu 12.04 (minv2 size is around 10Gb)
+For shippable/minv2 testing container we should use ubuntu 12.04 (or minv2 itself, but it's size is around 10Gb)
 ```
 docker pull ubuntu:12.04
 docker run -i -t ubuntu /bin/bash
